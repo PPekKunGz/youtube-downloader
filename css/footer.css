@@ -1,0 +1,42 @@
+.footer {
+    margin-top: 325px;
+    font-family: 'Hind', sans-serif !important;
+}
+.footer .wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    max-width: 750px;
+    margin: 45px auto;
+}
+.footer .wrapper li {
+    display: inline-block;
+}
+.footer .wrapper li a {
+    color: white;
+}
+.footer .wrapper li a:hover {
+    color: rgb(0, 0, 0);
+}
+.footer_link {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 1rem;
+}
+.footer .mui_icon {
+    margin-right: 8px;
+}
+
+
+
+.footer .copyright {
+    text-align: center!important;
+    color: #333;
+    font-weight: 600;
+}
+.copyright a {
+    color: rgba(255, 255, 255, 0.658);
+}
